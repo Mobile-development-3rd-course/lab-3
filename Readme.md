@@ -6,9 +6,10 @@
 Кафедра обчислювальної техніки<br><br><br><br>
 </strong></div>
 
-<div align = "center" bold = ""><strong>ЛАБОРАТОРНА РОБОТА № 1</strong><br><br>
+<div align = "center" bold = ""><strong>ЛАБОРАТОРНА РОБОТА № 3</strong><br><br>
 з дисципліни «Розроблення клієнтських додатків для мобільних платформ»<br>
-на тему «Знайомство з Xcode, створення першого проекту»</div><br><br><br><br>
+на тему «Використання UITableView, UITableViewDataSource, UILabel, UIImageView, Codable
+»</div><br><br><br><br>
 
 <div align = "right" >Виконав:<br>
 студент ІІІ курсу ФІОТ<br>                        
@@ -18,103 +19,19 @@
 
 <div align = "center">Київ – 2021</div><br><br><br><br>
 
-<strong>Робота виконується без варіанту.</strong><br>
+<strong>Варіант роботи номер 2.</strong><br>
 <strong>Скріншоти роботи застосунка:</strong><br>
-1. Bundle identifier<br>
-<p align = "center"><img src="https://i.imgur.com/ibLUz0Y.png" alt="bundle identifier"/></p><br>
+1. Portrait<br>
+![image](https://user-images.githubusercontent.com/42568173/111084688-5f564580-851c-11eb-97b2-a6b9d3aa64ca.png)
+![image](https://user-images.githubusercontent.com/42568173/111084788-dc81ba80-851c-11eb-94f7-4bca2db0e8ef.png)
 
-2. Наявність іконки застосунка для всіх необхідних правильних розмірів
-<p align = "center"><img src="https://i.imgur.com/UiasD9I.png" alt="icons"/></p><br>
-
-3. Застосунок побудований на основі навігаційної моделі вкладок
-<p align = "center"><img src="https://i.imgur.com/fWOzSNk.png" alt="model"/></p><br>
-
-4. Правильно налаштована мітка з персональними даними студента
-<p align = "center"><img src="https://i.imgur.com/bUQ9ok3.png" alt="info about student"/></p><br>
-
-5. Вказана назва та визначене зображення для вкладки, що налаштовувалася
-<p align = "center"><img src="https://i.imgur.com/RKOEyfE.png" alt="image and name for item"/></p><br>
-
-6. Проєкт збирається та запускається
-<p align = "center"><img src="https://i.imgur.com/UQ7alZ8.png" alt="the project is working properly"/></p><br>
-
-<strong>Лістинг коду:</strong><br>
-<i>ViewController.swift</i>
-```swift
-import UIKit
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+2. Landscape<br>
+![image](https://user-images.githubusercontent.com/42568173/111084756-ae03df80-851c-11eb-8187-5e12e41a539b.png)
+![image](https://user-images.githubusercontent.com/42568173/111084764-b4925700-851c-11eb-9011-d410658c5ccb.png)
+![image](https://user-images.githubusercontent.com/42568173/111084767-b8be7480-851c-11eb-86e0-6e37f8b012bb.png)
+![image](https://user-images.githubusercontent.com/42568173/111084792-e0add800-851c-11eb-897a-e352a4f19dd6.png)
 
 
-}
-```
-
-<i>SceneDelegate.swift</i>
-```swift
-import UIKit
-
-@main
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
-    }
-
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
-    }
-
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-    }
-
-
-}
-```
-
-<i>AppDelegate.swift</i>
-```swift
-import UIKit
-
-@main
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
-    }
-
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
-    }
-
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-    }
-
-
-}
-```
+<strong>Лістинг коду ви можете побачити в цьому репозиторію.</strong><br>
 <strong>Висновок:</strong><br>
-На першій лабораторній роботі я познайомився з інтегрованим середовищем розробки Xcode, створив свій перший проєкт.
+На третій лабораторній роботі я познайомився з використанням UITableView, UITableViewDataSource, UILabel, UIImageView, Codable.
